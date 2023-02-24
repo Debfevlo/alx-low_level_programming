@@ -10,7 +10,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		nl = -n;
-		_putcmhar('_');
+		_putchar('_');
 	} else
 	{
 		nl = n;
